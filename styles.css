@@ -6,4 +6,16 @@ h1 {
 
 p {
     color:red;
+    text-align:center;
+}
+
+div {
+    background-color:teal;
+    width:10px;
+    height:400px;
+    margin:30px;
+    padding:20px;
+    font-family:sans-serif;
+    font-size:28px;
+    font-weight:bold;
 }
