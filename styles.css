@@ -10,17 +10,24 @@ p {
 
 div {
     background-color:teal;
-    width:10px;
-    height:400px;
+    text-align: center;
+    width:30px;
+    height:100px;
     margin:30px;
     padding:20px;
     font-family: Arial, sans-serif;
-    font-size:50%;
+    font-size:14%;
     font-weight:bold;
 }
 
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
 table {
-    border:3px solid blue;
+    border:2px solid black;
     color:red;
     border-collapse:collapse
 }
@@ -30,5 +37,7 @@ th, td {
     border-collapse:collapse;
 }
 
-
+ul {
+    text-align: center;
+}
 
