@@ -26,6 +26,7 @@ div {
     margin-right: auto;
     width: 50%;
 }
+
 table {
     border:2px solid black;
     color:red;
@@ -37,7 +38,36 @@ th, td {
     border-collapse:collapse;
 }
 
-ul {
-    text-align: center;
+.list{
+width: 100%;
+text-align: center;
+list-style: none;
 }
+
+.list > li {
+color: #808080;
+font-size: 12px;
+font-family: Arial, Helvetica, sans-serif;
+display:inline-block;
+padding: 0 5px 3px 0;
+}
+
+#top {
+      font-size:16px;
+      color:blue;
+      text-align:center;
+        }
+#middle {
+        font-size:14px;
+        color:magenta;
+        text-align:center;
+        }
+
+.name {
+       font-weight:bold;
+       color:green;
+        }
+.guest {
+        color:orange;
+        }
 
